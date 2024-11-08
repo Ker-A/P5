@@ -1,0 +1,124 @@
+body{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #FAFAF9;
+}
+.logo{
+    width: 50px;                  
+    background-color: #F4B400;
+    border-radius: 50%;           
+    display: flex;                
+    align-items: center;          
+    justify-content: center;   
+}
+
+.estrella-circulo p {
+    width: 40px;                  
+  }
+
+.log{
+    width: 7rem;
+    padding-right: 1rem;
+}
+
+.Stll{
+    padding-bottom: 0.5rem;
+}
+
+h1{
+    font-size: 2.25rem;
+}
+
+.txt{
+    padding-left: 1rem;
+}
+
+.txtInfo{
+    font-size: 1.25rem;
+    color: #52525A;
+    letter-spacing: .1rem;
+}
+
+li{
+    list-style-image: url(resources/Done_ring_round_fill.svg);
+    font-size: 0.875rem;
+    color: #52525A;
+    
+}
+
+.body2Txt{
+    font-weight: bold;
+    color: #18181B;
+    font-size: 1rem;
+}
+
+.body2{
+    font-size: 1rem;
+    color: #52525A;
+}
+
+.card{
+    margin: 1rem;
+    background-color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+@media (min-width: 1024px) {
+    .txt{
+        padding-left: 3rem;
+    }
+    .points{
+        padding-left: 3rem;
+    }
+
+    .review{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .card{
+        grid-column-start: 6;
+        grid-column-end: 11;
+    }
+
+    .card1{
+        grid-column-start: 4;
+        grid-column-end: 9;
+    }
+}
+
+@media (min-width: 1280px) {
+    .body{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .prt1{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        padding: 10rem 0rem 0rem 2rem;
+        
+    }
+
+    .review{
+        grid-column-start: 6;
+        grid-column-end: 12;
+        padding: 10rem 0rem 0rem 2rem;
+    }
+
+    .card{
+        grid-column-start: 5;
+        grid-column-end: 12;
+        height: 9rem;
+    }
+
+    .card1{
+        grid-column-start: 2;
+        grid-column-end: 9;
+    }
+}
